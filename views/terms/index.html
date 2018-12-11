@@ -7,6 +7,10 @@
   <title>All Terms</title>
 </head>
 <body>
+  <a href="/">Home Page</a>
+  {{#terms}}
+  <a href="/terms/{{id}}"><p>{{name}}</p></a>
   
+  {{/terms}}
 </body>
 </html>
